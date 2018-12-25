@@ -20,4 +20,5 @@ To move n discs from stand Src to stand Dest:
     Move plate #n from Src to Dest.
     Move n-1 plates from Intr to Dest so they sit on plate #n. 
     
-    The above is a recursive algorithm: to carry out steps 1 and 3, apply the same algorithm again for n-1. The entire procedure is a finite number of steps, since at some point the algorithm will be required for n = 1. This step, moving a single plate from stand Src to stand Dest, is trivial.
+    
+The above is a recursive algorithm: to carry out steps 1 and 3, apply the same algorithm again for n-1. The entire procedure is a finite number of steps, since at some point the algorithm will be required for n = 1. This step, moving a single plate from stand Src to stand Dest, is trivial.
